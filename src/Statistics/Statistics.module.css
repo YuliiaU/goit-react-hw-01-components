@@ -1,0 +1,28 @@
+.statistics {
+  border: 1px solid;
+  margin: 30px auto;
+  width: 301px;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: rgb(106 106 111);
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  padding: 14px 11px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgb(177 167 167);
+}
+
+.label {
+  display: block;
+}

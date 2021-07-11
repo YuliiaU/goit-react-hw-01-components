@@ -1,0 +1,29 @@
+.history {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+.history th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.history td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+.history tbody tr:nth-child(odd) {
+  background: #fff;
+}
+.history tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.head th {
+  background-color: #00beff;
+}

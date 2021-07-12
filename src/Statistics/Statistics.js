@@ -8,7 +8,7 @@ const randomColor = () => 'rgb(' + r() + ',' + r() + ',' + r() + ', 0.9)';
 
 const Statistics = ({ title }) => (
   <section className={styles.statistics}>
-    <h2 className={styles.title}>Upload stats</h2>
+    {title && <h2 className={styles.title}>{title}</h2>}
 
     <ul className={styles.list}>
       {statisticalData.map(({ id, label, percentage }) => (
